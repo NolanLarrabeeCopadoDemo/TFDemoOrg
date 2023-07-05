@@ -42,6 +42,7 @@
         <connector>
             <targetReference>Update_Bicycle_Type</targetReference>
         </connector>
+        <filterFormula>ISNEW() &amp;&amp; NOT({!$Record.RecordType.DeveloperName} = &quot;Recreational&quot;)</filterFormula>
         <object>Bicycle__c</object>
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
