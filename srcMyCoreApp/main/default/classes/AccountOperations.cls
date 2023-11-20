@@ -5,7 +5,7 @@ public class AccountOperations {
 	else a.Description = 'Default Description';
         
         // Avoid SOQL inside loops
-        for (Integer i = 0; i < 30; i++) {
+        for (Integer i = 0; i < 40; i++) {
 	    List<Account> accounts = [SELECT Id FROM Account];
 	}
         
