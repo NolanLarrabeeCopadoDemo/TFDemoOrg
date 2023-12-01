@@ -12,6 +12,6 @@ public class AccountOperationsTest {
         Account updatedAccount = AccountOperations.setDefaultDescription(testAccount);
         
         // Verify that the Description field has been updated
-        System.assertEquals('Default Description', updatedAccount.Description);
+        System.assertEquals('Default Test Description', updatedAccount.Description);
     }
 }

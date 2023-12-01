@@ -1,7 +1,7 @@
 public class AccountOperations {
     public static Account setDefaultDescription(Account a) {        
         if (a.Description == null) {
-            a.Description = 'Default Description';
+            a.Description = 'Default Test Description';
             update a;
         }
         
