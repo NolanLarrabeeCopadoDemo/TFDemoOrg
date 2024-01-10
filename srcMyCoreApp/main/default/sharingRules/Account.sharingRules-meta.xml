@@ -16,20 +16,4 @@
             <allInternalUsers></allInternalUsers>
         </sharedFrom>
     </sharingOwnerRules>
-    <sharingOwnerRules>
-        <fullName>Deletion_Example</fullName>
-        <accessLevel>Read</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>Read</contactAccessLevel>
-            <opportunityAccessLevel>None</opportunityAccessLevel>
-        </accountSettings>
-        <label>Deletion Example</label>
-        <sharedTo>
-            <group>SF_Admins_and_Developers</group>
-        </sharedTo>
-        <sharedFrom>
-            <group>SF_Admins_and_Developers</group>
-        </sharedFrom>
-    </sharingOwnerRules>
 </SharingRules>
