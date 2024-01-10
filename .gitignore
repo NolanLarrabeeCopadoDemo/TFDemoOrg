@@ -9,6 +9,7 @@
 deploy-options.json
 .husky
 .vscode
+.copado
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -40,3 +41,4 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+.copado
