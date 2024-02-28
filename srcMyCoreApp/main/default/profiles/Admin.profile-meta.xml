@@ -24,6 +24,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Mortgage__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Plane__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -65,6 +70,9 @@
         <layout>Grant__c-Grant Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Mortgage__c-Mortgage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Plane__c-Plane Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -104,6 +112,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Grant__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Mortgage__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
