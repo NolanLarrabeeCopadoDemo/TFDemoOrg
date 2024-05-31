@@ -54,6 +54,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lightning__c.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Mortgage__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -133,6 +138,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Insurance__c-Insurance Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lightning__c-Lightning Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Mortgage__c-Mortgage Layout</layout>
@@ -234,6 +242,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Insurance__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Lightning__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
