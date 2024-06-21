@@ -19,6 +19,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Cup__c.Color__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Mortgage__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -50,6 +55,9 @@
     <layoutAssignments>
         <layout>Bicycle__c-Bicycle Layout</layout>
         <recordType>Bicycle__c.Recreational</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Cup__c-Cup Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Mortgage__c-Mortgage Layout</layout>
@@ -85,6 +93,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Bicycle__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Cup__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
