@@ -12,6 +12,21 @@
         <field>Bicycle__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vehicle__c.Color__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vehicle__c.Model_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vehicle__c.Year__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Bicycle__c-Bicycle Layout</layout>
     </layoutAssignments>
@@ -22,6 +37,9 @@
     <layoutAssignments>
         <layout>Bicycle__c-Bicycle Layout</layout>
         <recordType>Bicycle__c.Recreational</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Vehicle__c-Vehicle Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
@@ -36,6 +54,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Bicycle__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Vehicle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <recordTypeVisibilities>
@@ -68,6 +95,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowObjectDetectionTraining</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
