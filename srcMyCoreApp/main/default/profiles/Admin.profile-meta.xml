@@ -19,6 +19,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Cup__c.Color__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Digital__c.Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -62,6 +67,9 @@
         <recordType>Bicycle__c.Recreational</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Cup__c-Cup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Digital__c-Digital Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -101,6 +109,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Bicycle__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Cup__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
