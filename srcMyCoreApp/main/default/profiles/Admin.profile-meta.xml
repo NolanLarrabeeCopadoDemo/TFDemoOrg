@@ -29,6 +29,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Program__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Vehicle__c.Color__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -61,6 +66,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Plane__c-Plane Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Program__c-Program Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Vehicle__c-Vehicle Layout</layout>
@@ -113,6 +121,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Program__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Vehicle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -128,6 +145,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Bicycle__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Program__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
