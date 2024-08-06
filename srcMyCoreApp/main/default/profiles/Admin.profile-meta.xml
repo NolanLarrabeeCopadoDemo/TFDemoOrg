@@ -54,6 +54,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Pension__c.Availability__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Rapid__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -93,6 +98,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Office__c-Office Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Pension__c-Pension Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Rapid__c-Rapid Layout</layout>
@@ -176,6 +184,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Office__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Pension__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
