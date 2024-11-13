@@ -4,9 +4,17 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Treatment__c.Treatment_Area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Treatment__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Treatment_Area__c-Treatment Area Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Treatment__c-Treatment Layout</layout>
     </layoutAssignments>
@@ -26,9 +34,22 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Treatment_Area__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Treatment__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>Treatment_Area__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Treatment__c</tab>
         <visibility>DefaultOff</visibility>
