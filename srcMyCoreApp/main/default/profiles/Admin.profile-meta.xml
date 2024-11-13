@@ -114,6 +114,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Treatment_Area__c.External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Treatment__c.Treatment_Area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Treatment__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Vehicle__c.Color__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -202,6 +217,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Title__c-Title Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Treatment_Area__c-Treatment Area Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Treatment__c-Treatment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Vehicle__c-Vehicle Layout</layout>
@@ -414,6 +435,24 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Treatment_Area__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Treatment__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Vehicle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -446,6 +485,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Title__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Treatment_Area__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Treatment__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
