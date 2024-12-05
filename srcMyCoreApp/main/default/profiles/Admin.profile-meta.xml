@@ -411,6 +411,10 @@
         <tab>Program__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>Title__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
