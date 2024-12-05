@@ -152,6 +152,11 @@
         <label>Software</label>
     </standardValue>
     <standardValue>
+        <fullName>Software Development</fullName>
+        <default>false</default>
+        <label>Software Development</label>
+    </standardValue>
+    <standardValue>
         <fullName>Technology</fullName>
         <default>false</default>
         <label>Technology</label>
