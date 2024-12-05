@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Copado</letterhead>
+    <name>Case Response Email</name>
+    <style>freeForm</style>
+    <subject>Case #{!Case.CaseNumber} has been received</subject>
+    <textOnly>Dear {!Case.Contact},  Thank you for contacting our support team. Your case has been received and assigned to our {!Case.Product_Type__c} team.  Case Details: Case Number: {!Case.CaseNumber} Product Type: {!Case.Product_Type__c} Subject: {!Case.Subject}   We will review your case and respond as soon as possible.  Best regards, Support Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
