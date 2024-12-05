@@ -1,0 +1,20 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<pre class="code-body" style="box-sizing: border-box; font-size: 0.75rem; margin-top: 0px; margin-bottom: 1.5rem; overflow: auto; padding: 0.5rem 1rem; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem; font-family: var(--cds-font-monospace) !important;"><code class="language-html" style="box-sizing: border-box; font-family: Consolas, Monaco, &quot;Andale Mono&quot;, &quot;Ubuntu Mono&quot;, monospace; font-size: 0.875rem; overflow-wrap: normal; word-break: normal; background-image: initial; background-position: 0px 0px; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; word-spacing: normal; line-height: 1.5; tab-size: 4; hyphens: none; text-shadow: none;">Dear {!Case.Contact},
+                
+                Thank you for contacting our support team. Your case has been received and assigned to our {!Case.Product_Type__c} team.
+                
+                Case Details:
+                    Case Number: {!Case.CaseNumber}
+                    Product Type: {!Case.Product_Type__c}
+                    Subject: {!Case.Subject}
+            
+                
+                We will review your case and respond as soon as possible.
+                
+                Best regards,
+                Support Team
+  </code></pre>]]></td>
+</tr>
+</table>
