@@ -94,6 +94,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Vehicle__c.Color__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vehicle__c.Model_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vehicle__c.Year__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>YMCA__c.Region__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -154,16 +169,15 @@
         <layout>Title__c-Title Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Vehicle__c-Vehicle Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>YMCA__c-YMCA Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
         <description>All</description>
         <endAddress>255.255.255.255</endAddress>
-        <startAddress>0.0.0.0</startAddress>
-    </loginIpRanges>
-    <loginIpRanges>
-        <endAddress>1.1.1.1</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
     <objectPermissions>
@@ -308,6 +322,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Title__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Vehicle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -741,10 +764,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageMobile</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageMobileAppSecurity</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
