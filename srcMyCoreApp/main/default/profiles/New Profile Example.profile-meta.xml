@@ -180,14 +180,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AccountOperations</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountOperationsTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -9656,6 +9648,42 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Copado_Functions_Admin</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Edit_Git_Promotion_Step</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Edit_Quality_Gate_Step</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Edit_User_Story_Commit_Base_Branch</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Enable_Package_Creation</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Enable_Package_Delivery</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Enable_Package_Import</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Enable_Package_Publish</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>copado__Enable_Vlocity_Integration</name>
+    </customPermissions>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
         <name>copado__Copado_Setting__mdt</name>
@@ -9704,42 +9732,6 @@
         <enabled>true</enabled>
         <name>copado__UISection__mdt</name>
     </customMetadataTypeAccesses>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Copado_Functions_Admin</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Edit_Git_Promotion_Step</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Edit_Quality_Gate_Step</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Edit_User_Story_Commit_Base_Branch</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Enable_Package_Creation</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Enable_Package_Delivery</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Enable_Package_Import</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Enable_Package_Publish</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Enable_Vlocity_Integration</name>
-    </customPermissions>
     <customSettingAccesses>
         <enabled>true</enabled>
         <name>copado__Automation_Template_For_CLI__c</name>
@@ -9887,11 +9879,6 @@
         <editable>true</editable>
         <field>Asset.AssetServicedById</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Asset.ConsequenceOfFailure</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -10049,11 +10036,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>AuthorizationFormText.DetailAuthorizationFormText</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>AuthorizationFormText.FullAuthorizationFormUrl</field>
         <readable>true</readable>
@@ -10076,16 +10058,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Bicycle__c.Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>BusinessBrand.OrgId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>BusinessBrand.ParentId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10250,11 +10222,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Car__c.Type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Case.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -10272,11 +10239,6 @@
         <editable>false</editable>
         <field>Case.ClosedDate</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.ClosedOnCreate</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -10311,11 +10273,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.MilestoneStatus</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.MilestoneStatusIcon</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10399,86 +10356,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.BusinessJustification</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.BusinessReason</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.Category</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.ChangeType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.EstimatedEndTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.EstimatedStartTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.FinalReviewDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.FinalReviewNotes</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RelatedIssueAutonumberMaster</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RelatedItemAutonumberMaster</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RemediationPlan</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.ReviewerId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RiskImpactAnalysis</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequestRelatedItem.Comment</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Classroom__c.Type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>CommSubscription.DataUsePurposeId</field>
         <readable>false</readable>
@@ -10560,11 +10437,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.GenderIdentity</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Contact.HasOptedOutOfEmail</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -10612,11 +10484,6 @@
         <editable>true</editable>
         <field>Contact.Phone</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.Pronouns</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -10680,11 +10547,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ContactPointAddress.IsThirdPartyAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>ContactPointAddress.ParentId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -10696,11 +10558,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ContactPointAddress.UsageType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ContactPointConsent.ContactPointTypeConsentId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11015,11 +10872,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ContractLineItem.LocationId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>ContractLineItem.ParentContractLineItemId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11040,27 +10892,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ContractLineItem.StatusIndicator</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>ContractLineItem.Subtotal</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>ContractLineItem.TotalPrice</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Customer.CustomerStatusType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Customer.TotalLifeTimeValue</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11076,21 +10913,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>DataUsePurpose.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerContactPoint</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerParty</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerType</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11140,11 +10962,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Entitlement.RemainingWorkOrders</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Entitlement.ServiceContractId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11165,17 +10982,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Entitlement.StatusIndicator</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Entitlement.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Entitlement.WorkOrdersPerEntitlement</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11216,126 +11023,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Status</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.BusinessHoursId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.Category</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.DetectedDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.EndDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.EntitlementId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.IsClosed</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.IsMajorIncident</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.IsStopped</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.MilestoneStatus</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.ParentIncidentId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.PriorityOverrideReason</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.RelatedItemAutonumberMaster</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.ReportedMethod</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.ResolutionDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.ResolutionSummary</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.ResolvedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.SlaExitDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.SlaStartDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.StartDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.StopStartDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.SubCategory</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>IncidentRelatedItem.Comment</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11475,11 +11162,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Lead.GenderIdentity</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Lead.HasOptedOutOfEmail</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -11522,11 +11204,6 @@
         <editable>true</editable>
         <field>Lead.Phone</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Lead.Pronouns</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -11930,61 +11607,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Problem.Category</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.ParentProblemId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.PriorityOverrideReason</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.RelatedItemAutonumberMaster</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.ResolutionDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.ResolutionSummary</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.ResolvedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.RootCauseSummary</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.SubCategory</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ProblemRelatedItem.Comment</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Product2.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12025,42 +11647,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Seller.ActiveFromDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Seller.ActiveToDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Seller.SalesAmount</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Seller.SellerTier</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Seller.SellerType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>ServiceContract.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>ServiceContract.ActivationDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ServiceContract.AdditionalDiscount</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12135,11 +11727,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ServiceContract.StatusIndicator</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>ServiceContract.Subtotal</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12205,11 +11792,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPersona.Klout</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>SocialPersona.ListedCount</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12256,11 +11838,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SocialPersona.TopicType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.UserId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12665,11 +12242,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>WorkOrder.MilestoneStatusIcon</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>WorkOrder.ParentWorkOrderId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12871,11 +12443,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>WorkPlan.WorkOrderLineItemId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WorkPlan.WorkPlanTemplateId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14122,11 +13689,6 @@
         <editable>true</editable>
         <field>copado__Copado_Notification__c.copado__status__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>copado__Copado_Protected_Settiing__mdt.copado__Text_Field__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -17094,11 +16656,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>copado__SensitiveProperty__mdt.copado__Value__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>copado__Snapshot_Difference__c.copado__Destination_Git_Commit__c</field>
         <readable>true</readable>
@@ -17617,16 +17174,6 @@
         <editable>true</editable>
         <field>copado__Streaming_Setting__mdt.copado__Timeout__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>copado__SupportedObject__mdt.copado__ExternalIdField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>copado__SupportedObject__mdt.copado__IsExposed__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -19769,9 +19316,6 @@
         <layout>CampaignMember-Campaign Member Page Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Car__c-Car Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Case-Formato de casos</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -19779,9 +19323,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseMilestone-Formato de eventos clave de casos</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Classroom__c-Classroom Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CommunityMemberLayout-Community Member Layout</layout>
@@ -20348,9 +19889,6 @@
         <layout>copado__Sprint__c-copado__Sprint Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>copado__Sprint__c_hd-copado__Sprint Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>copado__Stage_Connection__c-copado__Stage Connection Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -20642,15 +20180,6 @@
         <allowEdit>false</allowEdit>
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>Car__c</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
         <object>Case</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
@@ -20661,15 +20190,6 @@
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>ChangeRequest</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Classroom__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -21147,15 +20667,6 @@
         <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>ServiceContract</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>SocialPersona</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -23213,11 +22724,6 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <default>true</default>
         <recordType>copado__Artifact__c.copado__Git_Artifact</recordType>
         <visible>true</visible>
@@ -23731,20 +23237,12 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-BusinessBrand</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Campaign</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Case</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ChangeRequest</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Chatter</tab>
@@ -23796,10 +23294,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ContractLineItem</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Customer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -23863,14 +23357,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-FlowOrchestrationInstance</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-FlowOrchestrationWorkItem</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Forecasting3</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -23881,10 +23367,6 @@
     <tabVisibilities>
         <tab>standard-Image</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Incident</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Individual</tab>
@@ -23927,10 +23409,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-OrgMetric</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-OtherUserProfile</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -23941,10 +23419,6 @@
     <tabVisibilities>
         <tab>standard-Pricebook2</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Problem</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ProcessException</tab>
@@ -23976,14 +23450,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Recommendation</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Scorecard</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Seller</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -24069,18 +23535,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>AccessToComplaintMgmt</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AccessToDisputeManagement</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>AccessToServiceProcess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>AccountSwitcherUser</name>
     </userPermissions>
     <userPermissions>
@@ -24153,14 +23607,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>BypassMFAForUiLogins</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CMSECEAuthoringAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>CampaignInfluence2</name>
     </userPermissions>
     <userPermissions>
@@ -24177,27 +23623,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>CanUpdateEmailMessage</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>CanUseNewDashboardBuilder</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
         <name>CanVerifyComment</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CdcReportingCreateReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CdcReportingManageFolders</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>CdcReportingViewReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -24233,19 +23663,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ClientSecretRotation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>CloseConversations</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
         <name>ConfigCustomRecs</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ConfigureDataspaceScope</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -24320,10 +23742,6 @@
         <name>CreateWorkspaces</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>CustomAppsOnFSMobile</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>CustomMobileAppsAccess</name>
     </userPermissions>
@@ -24349,23 +23767,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>DeleteCrMemoAndInvoice</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>DeleteTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>DigitalLendingUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>DistributeFromPersWksp</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>DownloadPackageVersionZips</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -24444,16 +23850,8 @@
         <name>EmailTemplateManagement</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>EnableBCTransactionPolling</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>EnableCommunityAppLauncher</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>EnableIPFSUpload</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -24462,10 +23860,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ExportReport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>FSCArcGraphCommunityUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -24561,10 +23955,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>LoanOfficerUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>LtngPromoReserved01UserPerm</name>
     </userPermissions>
     <userPermissions>
@@ -24641,10 +24031,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ManageDataspaceScope</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ManageDynamicDashboards</name>
     </userPermissions>
     <userPermissions>
@@ -24697,15 +24083,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ManageNamedCredentials</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ManageNetworks</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ManageOrchInstsAndWorkItems</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -24794,10 +24172,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>MergeTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>Microbatching</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -24916,10 +24290,6 @@
         <name>ScheduleReports</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>SegmentIntelligenceUser</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
@@ -25013,10 +24383,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>UnderwriterUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>UseAssistantDialog</name>
     </userPermissions>
     <userPermissions>
@@ -25074,10 +24440,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ViewDataCategories</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewDeveloperName</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
