@@ -39,6 +39,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Grant__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Insurance__c.Policy_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -139,6 +144,9 @@
         <layout>Finance__c-Finance Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Grant__c-Grant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Insurance__c-Insurance Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -232,6 +240,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Finance__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Grant__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
