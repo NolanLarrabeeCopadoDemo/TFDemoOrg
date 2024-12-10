@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Animal Health and Food Safety Services Division (AHFSS)</fullName>
+                <default>false</default>
+                <label>Animal Health and Food Safety Services Division (AHFSS)</label>
+            </value>
+            <value>
+                <fullName>California Wildlife Damage Management EIR/EIS Website</fullName>
+                <default>false</default>
+                <label>California Wildlife Damage Management EIR/EIS Website</label>
+            </value>
+            <value>
+                <fullName>Citrus Pest and Disease Prevention Division</fullName>
+                <default>false</default>
+                <label>Citrus Pest and Disease Prevention Division</label>
+            </value>
+            <value>
+                <fullName>County Relations Office</fullName>
+                <default>false</default>
+                <label>County Relations Office</label>
+            </value>
+            <value>
+                <fullName>Division of Marketing Services / Fairs &amp; Expositions</fullName>
+                <default>false</default>
+                <label>Division of Marketing Services / Fairs &amp; Expositions</label>
+            </value>
+            <value>
+                <fullName>Division of Measurement Standards (DMS)</fullName>
+                <default>false</default>
+                <label>Division of Measurement Standards (DMS)</label>
+            </value>
+            <value>
+                <fullName>Inspection Services</fullName>
+                <default>false</default>
+                <label>Inspection Services</label>
+            </value>
+            <value>
+                <fullName>Office of Environmental Farming &amp; Innovation (OEFI)</fullName>
+                <default>false</default>
+                <label>Office of Environmental Farming &amp; Innovation (OEFI)</label>
+            </value>
+            <value>
+                <fullName>Pierce&apos;s Disease Control Program (Glassy-winged Sharpshooter)</fullName>
+                <default>false</default>
+                <label>Pierce&apos;s Disease Control Program (Glassy-winged Sharpshooter)</label>
+            </value>
+            <value>
+                <fullName>Plant Health and Pest Prevention Services Division (PHPPS)</fullName>
+                <default>false</default>
+                <label>Plant Health and Pest Prevention Services Division (PHPPS)</label>
+            </value>
+            <value>
+                <fullName>Senior Farmers’ Market Nutrition Program (SFMNP)</fullName>
+                <default>false</default>
+                <label>Senior Farmers’ Market Nutrition Program (SFMNP)</label>
+            </value>
+            <value>
+                <fullName>Specialty Crop Block Grants Program (SCBGP)</fullName>
+                <default>false</default>
+                <label>Specialty Crop Block Grants Program (SCBGP)</label>
+            </value>
+            <value>
+                <fullName>State Board of Food &amp; Agriculture</fullName>
+                <default>false</default>
+                <label>State Board of Food &amp; Agriculture</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
