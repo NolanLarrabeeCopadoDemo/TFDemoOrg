@@ -23,6 +23,7 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
+    <serverIsDown>SNA_YqQeg_sf_default_cdn_Marketing1</serverIsDown>
     <siteAdmin>nlarrabee+tfdemoorg@copado.com</siteAdmin>
     <siteGuestRecordDefaultOwner>nlarrabee+tfdemoorg@copado.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
