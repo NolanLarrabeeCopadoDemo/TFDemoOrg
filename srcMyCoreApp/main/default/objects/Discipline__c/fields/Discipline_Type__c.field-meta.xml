@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discipline_Type__c</fullName>
+    <label>Discipline Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Automation</fullName>
+                <default>false</default>
+                <label>Automation</label>
+            </value>
+            <value>
+                <fullName>Blood Banking</fullName>
+                <default>false</default>
+                <label>Blood Banking</label>
+            </value>
+            <value>
+                <fullName>Clinical Chemistry</fullName>
+                <default>false</default>
+                <label>Clinical Chemistry</label>
+            </value>
+            <value>
+                <fullName>Clinical Centrifugation</fullName>
+                <default>false</default>
+                <label>Clinical Centrifugation</label>
+            </value>
+            <value>
+                <fullName>Advanced Informatics</fullName>
+                <default>false</default>
+                <label>Advanced Informatics</label>
+            </value>
+            <value>
+                <fullName>Hematology</fullName>
+                <default>false</default>
+                <label>Hematology</label>
+            </value>
+            <value>
+                <fullName>Immunoassay</fullName>
+                <default>false</default>
+                <label>Immunoassay</label>
+            </value>
+            <value>
+                <fullName>Microbiology</fullName>
+                <default>false</default>
+                <label>Microbiology</label>
+            </value>
+            <value>
+                <fullName>Protein Chemistry</fullName>
+                <default>false</default>
+                <label>Protein Chemistry</label>
+            </value>
+            <value>
+                <fullName>Urinalysis</fullName>
+                <default>false</default>
+                <label>Urinalysis</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
