@@ -3,8 +3,8 @@ private class MyNewApexClassExampleTest {
     @isTest
     static void testAddNumbers() {
         // Test case 1: Addition with valid values
-        Integer result1 = MyNewApexClassExample.addNumbers(13, 7, 2);
-        System.assertEquals(22, result1, 'Addition result should be 22');
+        Integer result1 = MyNewApexClassExample.addNumbers(14, 7, 2);
+        System.assertEquals(23, result1, 'Addition result should be 22');
 
         // Test case 2: Addition with negative values
         Integer result2 = MyNewApexClassExample.addNumbers(-3, 8, 2);
