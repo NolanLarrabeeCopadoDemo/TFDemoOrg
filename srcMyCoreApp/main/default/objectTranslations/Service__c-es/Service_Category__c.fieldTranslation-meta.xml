@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Categoria de Servicio</label>
+    <name>Service_Category__c</name>
+    <picklistValues>
+        <masterLabel>Accident and Health</masterLabel>
+        <translation><!-- Accident and Health --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Casualty / Liability</masterLabel>
+        <translation><!-- Casualty / Liability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data and Analytics</masterLabel>
+        <translation><!-- Data and Analytics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disability and Leave</masterLabel>
+        <translation><!-- Disability and Leave --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical Management</masterLabel>
+        <translation><!-- Medical Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OSHA Recordkeeping</masterLabel>
+        <translation><!-- OSHA Recordkeeping --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Third Party Administration</masterLabel>
+        <translation><!-- Third Party Administration --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Workers Compensation</masterLabel>
+        <translation><!-- Workers Compensation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
