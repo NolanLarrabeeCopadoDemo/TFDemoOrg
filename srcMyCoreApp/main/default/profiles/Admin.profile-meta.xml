@@ -134,6 +134,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Republic__c.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Service__c.Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -277,6 +282,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Rapid__c-Rapid Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Republic__c-Republic Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Service__c-Service Layout</layout>
@@ -532,6 +540,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Rapid__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Republic__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
