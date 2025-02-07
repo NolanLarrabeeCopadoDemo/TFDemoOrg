@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Category__c</fullName>
+    <label>Service Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accident and Health</fullName>
+                <default>false</default>
+                <label>Accident and Health</label>
+            </value>
+            <value>
+                <fullName>Casualty / Liability</fullName>
+                <default>false</default>
+                <label>Casualty / Liability</label>
+            </value>
+            <value>
+                <fullName>Data and Analytics</fullName>
+                <default>false</default>
+                <label>Data and Analytics</label>
+            </value>
+            <value>
+                <fullName>Disability and Leave</fullName>
+                <default>false</default>
+                <label>Disability and Leave</label>
+            </value>
+            <value>
+                <fullName>Medical Management</fullName>
+                <default>false</default>
+                <label>Medical Management</label>
+            </value>
+            <value>
+                <fullName>OSHA Recordkeeping</fullName>
+                <default>false</default>
+                <label>OSHA Recordkeeping</label>
+            </value>
+            <value>
+                <fullName>Third Party Administration</fullName>
+                <default>false</default>
+                <label>Third Party Administration</label>
+            </value>
+            <value>
+                <fullName>Workers Compensation</fullName>
+                <default>false</default>
+                <label>Workers Compensation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
