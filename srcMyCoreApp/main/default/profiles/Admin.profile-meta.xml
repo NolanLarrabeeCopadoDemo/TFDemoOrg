@@ -24,6 +24,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Claim__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Cooler__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -173,6 +178,9 @@
         <recordType>Bicycle__c.Recreational</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Claim__c-Claim Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Cooler__c-Cooler Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -279,6 +287,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Bicycle__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Claim__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
