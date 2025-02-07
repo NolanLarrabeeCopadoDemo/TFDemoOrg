@@ -44,6 +44,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Discipline__c.Discipline_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Finance__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -200,6 +205,9 @@
         <layout>Digital__c-Digital Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Discipline__c-Discipline Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Finance__c-Finance Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -336,6 +344,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Digital__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Discipline__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -521,6 +538,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Bicycle__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Discipline__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
