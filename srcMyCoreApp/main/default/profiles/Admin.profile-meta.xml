@@ -109,6 +109,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Management__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Meeting__c.Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -296,6 +301,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lightning__c-Lightning Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Management__c-Management Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Meeting__c-Meeting Layout</layout>
@@ -532,6 +540,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Management__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Meeting__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -713,6 +730,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Discipline__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Management__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
