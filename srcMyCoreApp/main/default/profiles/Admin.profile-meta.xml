@@ -189,6 +189,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Parking_Permit__c.VIN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Pension__c.Availability__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -887,6 +892,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Meeting__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Parking_Permit__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
