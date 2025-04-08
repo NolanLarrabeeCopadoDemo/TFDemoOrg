@@ -49,6 +49,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Competitive_Insight__c.Competitor_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Competitive_Insight__c.Date_Identified__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Competitive_Insight__c.Pricing_Details__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Cooler__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -345,6 +360,9 @@
         <layout>Claim__c-Claim Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Competitive_Insight__c-Competitive Insight Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Cooler__c-Cooler Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -535,6 +553,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Claim__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Competitive_Insight__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -897,6 +924,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Bicycle__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Competitive_Insight__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
