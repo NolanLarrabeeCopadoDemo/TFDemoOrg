@@ -284,6 +284,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Technology_Service__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Title__c.Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -466,6 +471,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TIAA__c-TIAA Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Technology_Service__c-Technology Service Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Title__c-Title Layout</layout>
@@ -858,6 +866,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Technology_Service__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Title__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -960,6 +977,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Service__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Technology_Service__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
