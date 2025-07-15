@@ -26,4 +26,16 @@ private class StringUtilsTest {
         String result = StringUtils.reverseString('Salesforce');
         System.assertEquals('ecrofSelaS', result);
     }
+
+    @isTest
+    static void testNullString() {
+        String result = StringUtils.reverseString(null);
+        System.assertEquals(null, result);
+    }
+
+    @isTest
+    static void testEmptyString() {
+        String result = StringUtils.reverseString('');
+        System.assertEquals('', result);
+    }
 }
